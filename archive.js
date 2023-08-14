@@ -15,79 +15,85 @@ var risoImagePaths = [
     },
     {
       path: "../Images/Content/Riso/ErikMerisalu-Archive-Riso-2.jpg",
-      textLeft: ["Scans from book"],
+      textLeft: ["Analyzing my practice", "Scans from the book"],
       textRight: [""],
       id: ""
     },
     {
       path: "../Images/Content/Riso/ErikMerisalu-Archive-Riso-3.jpg",
-      textLeft: ["Scans from book"],
+      textLeft: ["Analyzing my practice", "Scans from the book"],
       textRight: [""],
       id: ""
     },
     {
       path: "../Images/Content/Riso/ErikMerisalu-Archive-Riso-4.jpg",
-      textLeft: ["Scans from book"],
+      textLeft: ["Analyzing my practice", "Scans from the book"],
       textRight: [""],
       id: ""
     },
     {
       path: "../Images/Content/Riso/ErikMerisalu-Archive-Riso-5.jpg",
-      textLeft: ["Scans from book"],
+      textLeft: ["Analyzing my practice", "Scans from the book"],
       textRight: [""],
       id: ""
     },
     {
       path: "../Images/Content/Riso/ErikMerisalu-Archive-Riso-6.jpg",
-      textLeft: ["Scans from book"],
+      textLeft: ["Analyzing my practice", "Scans from the book"],
       textRight: [""],
       id: ""
     },
     {
       path: "../Images/Content/Riso/ErikMerisalu-Archive-Riso-7.jpg",
-      textLeft: ["Scans from book"],
+      textLeft: ["Analyzing my practice", "Scans from the book"],
       textRight: [""],
       id: ""
     },
     {
       path: "../Images/Content/Riso/ErikMerisalu-Archive-Riso-8.jpg",
-      textLeft: ["Scans from book"],
+      textLeft: ["Analyzing my practice", "Scans from the book"],
       textRight: [""],
       id: ""
     },
     {
       path: "../Images/Content/Riso/ErikMerisalu-Archive-Riso-9.jpg",
-      textLeft: ["Scans from book"],
+      textLeft: ["Analyzing my practice", "Scans from the book"],
       textRight: [""],
       id: ""
     },
     {
       path: "../Images/Content/Riso/ErikMerisalu-Archive-Riso-10.jpg",
-      textLeft: ["Scans from book"],
+      textLeft: ["Analyzing my practice", "Scans from the book"],
       textRight: [""],
       id: ""
     },
     {
       path: "../Images/Content/Riso/ErikMerisalu-Archive-Riso-11.jpg",
-      textLeft: ["Scans from book"],
+      textLeft: ["Analyzing my practice", "Scans from the book"],
       textRight: [""],
       id: ""
     },
     {
       path: "../Images/Content/Riso/ErikMerisalu-Archive-Riso-12.jpg",
-      textLeft: ["Scans from book"],
+      textLeft: ["Analyzing my practice", "Scans from the book"],
       textRight: [""],
       id: ""
     },
     {
       path: "../Images/Content/Riso/ErikMerisalu-Archive-Riso-13.jpg",
-      textLeft: ["Scans from book"],
+      textLeft: ["Analyzing my practice", "Scans from the book"],
       textRight: [""],
       id: ""
     },
     {
       path: "../Images/Content/Riso/ErikMerisalu-Archive-Riso-14.jpg",
-      textLeft: ["Scans from book"],
+      textLeft: ["Analyzing my practice", "Scans from the book"],
+      textRight: [""],
+      id: ""
+    },
+    {
+      path: "../Images/Content/Riso/ErikMerisalu-Archive-Riso-15.jpg",
+      textLeft: ["Analyzing my practice", "Scans from the book"],
       textRight: [""],
       id: ""
     },
