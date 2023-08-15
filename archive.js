@@ -137,7 +137,7 @@ var risoImagePaths = [
       path: "../Images/Content/Digi/ErikMerisalu-Archive-Digi-7.jpg",
       textLeft: ["bronze clutch bag closure","ifm graduation collection by lavinia gaudiello", "paris"],
       textRight: [""],
-      id: "" 
+      id: "bag-handles" 
     },
     {
       path: "../Images/Content/Digi/ErikMerisalu-Archive-Digi-8.jpg",
@@ -282,7 +282,7 @@ var risoImagePaths = [
       path: "../Images/Content/Digi/ErikMerisalu-Archive-Digi-31.jpg",
       textLeft: ["silver choker", "925 silver, unknown minerals"],
       textRight: ["arctic choker", "925 silver, crystal quartz"],
-      id: "" 
+      id: "necklaces" 
     },
     {
       path: "../Images/Content/Digi/ErikMerisalu-Archive-Digi-32.jpg",
