@@ -521,7 +521,7 @@ targetImages.forEach(function (image) {
 });
 
 var intro = document.getElementById("intro");
-var spine = document.querySelectorAll("sidebar-spine")
+var spine = document.getElementById("spine")
 
 document.addEventListener("DOMContentLoaded", function() {
   intro.style.opacity = "1";
