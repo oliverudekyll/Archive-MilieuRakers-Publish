@@ -521,11 +521,16 @@ targetImages.forEach(function (image) {
 });
 
 var intro = document.getElementById("intro");
+var spine = document.querySelectorAll("sidebar-spine")
 
 document.addEventListener("DOMContentLoaded", function() {
   intro.style.opacity = "1";
 
-  window.addEventListener("load", function() {
+/*   window.addEventListener("load", function() {
+    intro.style.opacity = "0";
+  }) */
+
+  spine.addEventListener("load", function() {
     intro.style.opacity = "0";
   })
 })
