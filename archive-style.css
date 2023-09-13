@@ -257,7 +257,9 @@ div.caption p {
 
     #sidebar {
         display: none;
+        height: calc(100dvh - 2rem);
         height: calc(100vh - 2rem);
+        height: -webkit-fill-available;
 /*         top: 50%;
         transform: translate(0, -50%); */
         padding-left: .4rem;
@@ -311,8 +313,9 @@ div.caption p {
     } 
 
     img.sidebar-spine {
-        height: calc(100vh - 2rem);
         height: calc(100dvh - 2rem);
+        height: calc(100vh - 2rem);
+        height: -webkit-fill-available;
     }
     
     div.nav-bar a {
