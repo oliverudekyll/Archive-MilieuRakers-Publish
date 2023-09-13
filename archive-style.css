@@ -177,6 +177,7 @@ div.article img {
     -o-object-fit: contain;
     object-fit: contain;
     max-height: 90vh;
+    width: 100%;
     max-width: min-content;
     max-width: -webkit-min-content;
 }
@@ -249,10 +250,6 @@ div.caption p {
 
     div.feed {
         padding-top: 3rem;
-    }
-
-    div.article img {
-        width: calc(100vw - 2rem);
     }
 
     @keyframes sidebar {
