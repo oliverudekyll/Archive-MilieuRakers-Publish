@@ -251,6 +251,10 @@ div.caption p {
         padding-top: 3rem;
     }
 
+    div.article img {
+        width: calc(100vw - 2rem);
+    }
+
     @keyframes sidebar {
         0% {transform: translate(-30%);}
         100% {transform: translate(0%);}
