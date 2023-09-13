@@ -170,6 +170,7 @@ div.article {
     align-items: center;
     justify-content: center;
     flex-basis: 50%;
+    min-height: 900px;
 }
 
 div.article img {
@@ -178,8 +179,7 @@ div.article img {
     object-fit: contain;
     max-height: 90vh;
     width: 100%;
-    max-width: min-content;
-    max-width: -webkit-min-content;
+    min-height: 900px;
 }
 
 div.feed-space {
@@ -330,6 +330,11 @@ div.caption p {
 
     div.article {
         flex-basis: 100%;
+        min-height: initial;
+    }
+
+    div.article img {
+        min-height: initial;
     }
     
     div.caption {
