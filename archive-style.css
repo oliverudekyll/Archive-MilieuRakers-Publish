@@ -192,8 +192,7 @@ div.feed-space {
 
 div#caption-frame {
     position: fixed;
-/*     width: 85dvw; */
-    width: 85vw;
+    width: 80vw;
     height: calc(100vh - 6rem);
     max-height: calc(100vh - 6rem);
 
