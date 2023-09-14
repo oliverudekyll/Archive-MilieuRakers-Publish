@@ -850,11 +850,12 @@ function adjustLayout() {
   risoImagePaths.forEach(function (imageData, index) {
     var imgDiv = document.createElement("div");
     imgDiv.className = "article";
-    imgDiv.id = imageData.id || '';
+/*  imgDiv.id = imageData.id || ''; */
 
     var img = document.createElement("img");
     img.src = imageData.path;
     img.className = "works";
+    img.id = imageData.id || '';
 
     if (imageData.basis === 1) {
       /* imgDiv.style.flexBasis = "100%"; */
@@ -887,7 +888,7 @@ adjustLayout();
 
 window.addEventListener("resize", function () {
 /*   adjustLayout();
- */  updateCaptions(0);
+ */  /* updateCaptions(0); */
 });
 
 var intro = document.getElementById("intro");

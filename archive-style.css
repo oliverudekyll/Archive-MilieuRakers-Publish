@@ -145,7 +145,7 @@ div.nav-bar a:hover {
 
 
 div.feed {
-    position: absolute;
+    position: relative;
     width: 80vw;
 /*     width: 85vw;
     width: 85%; */
