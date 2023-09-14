@@ -146,13 +146,13 @@ div.nav-bar a:hover {
 
 div.feed {
     position: absolute;
-    width: 85vw;
+    width: 80vw;
 /*     width: 85vw;
     width: 85%; */
 
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-around;
+    justify-content: center;
     align-items: flex-start;
     row-gap: 8rem;
     padding-top: 2rem;
@@ -173,13 +173,13 @@ div.article {
     min-height: 900px;
 }
 
-div.article img {
+.works {
     position: relative;
     -o-object-fit: contain;
     object-fit: contain;
     max-height: 90vh;
-    width: 100%;
-    min-height: 900px;
+    width: 50%;
+    flex-basis: 50%;
 }
 
 div.feed-space {
@@ -241,6 +241,14 @@ div.caption p {
     white-space: nowrap;
     text-align: center;
 }
+
+/* @media screen and (min-width: 1480px) {
+    .works {
+        width: 50%;
+        max-width: min-content;
+        max-width: -webkit-min-content;
+    }
+} */
 
 @media screen and (max-width: 850px) {
 
@@ -333,8 +341,9 @@ div.caption p {
         min-height: initial;
     }
 
-    div.article img {
+    .works {
         min-height: initial;
+        flex-basis: 100%;
     }
     
     div.caption {

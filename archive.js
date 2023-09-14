@@ -857,11 +857,13 @@ function adjustLayout() {
     img.className = "works";
 
     if (imageData.basis === 1) {
-      imgDiv.style.flexBasis = "100%";
+      /* imgDiv.style.flexBasis = "100%"; */
+      img.style.flexBasis = "100%";
     }
 
-    imgDiv.appendChild(img);
-    imgContainer.appendChild(imgDiv);
+    imgContainer.appendChild(img)
+/*     imgDiv.appendChild(img);
+    imgContainer.appendChild(imgDiv); */
 
     img.addEventListener("load", function () {
       var observer = new IntersectionObserver(function (entries) {
